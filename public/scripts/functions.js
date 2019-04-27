@@ -3,7 +3,7 @@ function submitComment(commentControl) {
     var subscriptionKey = "d5ef7930f4354e8fb279fc86b6f0a858";
     var url = "/https://westcentralus.api.cognitive.microsoft.com/text/analytics/v2.0";
 
-    var payload = '{ "documents": [ { "language": "en-US", "id": "1", "text": "' + comments + '" }]}';
+    var payload = '{ "documents": [ { "language": "es-ES", "id": "1", "text": "' + comments + '" }]}';
 
     $.ajax({
         type: "POST",
